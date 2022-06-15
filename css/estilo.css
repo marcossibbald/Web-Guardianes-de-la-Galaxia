@@ -1,0 +1,999 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body{ background-color: #A8050A;
+
+}
+
+main{
+    width: 1100px;
+    height: 713px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#545454;
+}
+
+
+
+header{ background-color:#13125E;
+    height: 80px;
+    width: 100%;
+
+
+
+
+}
+
+
+
+article{ padding-top: 5px;
+    margin-left: 10px;
+
+
+ }
+
+#menu li{
+
+    display: inline;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: #A98B49;
+    font-size: 16px;
+    font-family: 'Fugaz One', display;
+    float: right;
+    padding-right: 82px;
+    padding-bottom: 7px;
+}
+
+#menu li:hover{
+    background-color: #000;
+    color: red;
+}
+
+
+
+nav{
+width: 1100px;
+height: 17px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+section a{
+    padding-left: 12px;
+    height: 100%;
+}
+
+section article p { height: 220px;
+         width: 743px; 
+         text-align: center;
+         margin-left: 182px;
+         margin-top: 10px;
+         text-decoration: none;
+         font-size: 18px;
+
+}
+
+section article { height: 220px;
+         width: 1100px; 
+
+}
+
+
+
+#secundarios{ margin-top: 245px;
+    margin-right: 20px;
+
+}
+
+
+
+
+footer{
+width: 100%;
+height: 66px;
+margin-top: 550px;
+background-color:#13125E; 
+
+
+
+}
+
+ 
+footer li{
+     
+    display: inline;
+
+
+}
+
+footer li a img{  
+          
+    
+    height:1%;
+    float: right;
+    padding: 5px;
+    margin-left:5px;
+    padding-top: 15px;
+
+
+
+ }
+
+ footer .nombre{
+    padding-top: 13px;
+    padding-left: 370px;
+    text-decoration: none;
+    color: #A98B49;
+    font-size: 16px;
+    font-family: GuardianGalaxy, sans-serif;
+
+ }
+
+footer .uces img  {
+
+    padding-top: 13px;
+    padding-left: 25px;
+    
+
+
+}
+  
+footer .uces2 img{
+
+    padding-top: 13px;
+    padding-left: 25px;
+    display: none;
+
+
+}
+
+
+
+ form{
+     width: 450px;
+     height: 567px;
+     background-color: #A98B49;
+     color: #f5f6fa;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 10px;
+     border-width: 5px;
+     border-style: solid;
+     border-color: #D11C22;
+     border-radius: 20px;
+
+
+
+ }
+
+
+ h2{
+    color:#A98B49;
+    text-align: center;
+
+    
+ }
+ 
+ 
+
+ h2 label{
+    color:black;
+    text-align: center;
+    
+
+
+ }
+
+ .cajas{
+        width: 100%;
+        color: #D11C22;
+
+
+
+ }
+
+ .boton{
+       width: 20%;
+       color: #f5f6fa;
+       background-color: #0c2461;
+       height: 30px;
+       margin-top:20px ;
+
+
+
+ }
+
+ nav a{
+float: left;
+padding-left: 18px;
+padding-bottom: 8px;
+}
+
+#personajes{
+padding-left: 216px;
+padding-bottom: 8px;
+
+}
+
+
+
+
+
+
+
+ /* resolución x-large */
+
+@media screen and (min-width: 1200px)
+and (max-width: 1400px)	{
+ 
+
+
+
+
+  header{ background-color:#13125E;
+    height: 80px;
+    width: 100%;
+
+}
+#menu li a{
+    text-decoration: none;
+    color: #A98B49;
+    font-size: 16px;
+    font-family: 'Fugaz One', display;
+    float: right;
+    padding-right: 82px;
+    padding-bottom: 7px;
+}
+
+
+#secundarios{ margin-top: 245px;
+    margin-right: 20px;
+
+}
+ nav{
+width: 1100px;
+height: 17px;
+margin-left: auto;
+margin-right: auto;
+
+}
+nav a{
+float: left;
+    padding-left: 4px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+h2{
+        color: #A98B49;
+    text-align: center;
+    
+
+ }
+ h3{
+        color: #A98B49;
+    text-align: left;
+    margin-left: 493px;
+
+ }
+section article p { height: 220px;
+    width: 451px;
+    text-align: center;
+    margin-left: 315px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+section img{
+       margin-left: 0px;
+    padding-left: 0px;
+}
+
+  footer{
+width: 100%;
+height: 66px;
+margin-top: 550px;
+background-color:#13125E; 
+
+}
+
+footer .nombre{
+    padding-top: 13px;
+    padding-left: 390px;
+    text-decoration: none;
+    color: #A98B49;
+    font-size: 15px;
+    font-family: 'Fugaz One', display;
+
+ }.oculto1{
+        margin-left: 0px;
+    padding-left: 0px;
+}
+
+.oculto2{
+    display: none;
+}.oculto3{
+    display: none;
+}.oculto4{
+    display: none;
+}
+
+.galeria1{
+    display: none;
+}.galeria2{
+    display: none;
+}.galeria3{
+    display: none;
+}
+.galeria5{
+    display: none;
+}.galeria6{
+    display: none;
+}.galeria7{
+    display: none;
+}.galeria9{
+    display: none;
+}.galeria10{
+    display: none;
+}.galeria11{
+    display: none;
+}.galeria13{
+    display: none;
+}.galeria14{
+    display: none;
+}.galeria15{
+    display: none;
+}.galeria17{
+    display: none;
+}.galeria18{
+    display: none;
+}.galeria19{
+    display: none;
+}.galeria22{
+    display: none;
+}.galeria23{
+    display: none;
+}.galeria25{
+    display: none;
+}.galeria26{
+    display: none;
+}.galeria28{
+    display: none;
+}.galeria29{
+    display: none;
+}.galeria31{
+    display: none;
+}.galeria32{
+    display: none;
+}
+.argumento1{
+    margin-left: 47px;
+    padding-left: 0px;
+}.argumento2{
+    display: none;
+}
+.argumento4{
+    display: none;
+}
+
+
+
+
+
+}
+
+/* resolución large */
+
+@media screen and (min-width: 992px)
+and (max-width: 1199px) {
+    
+    main {
+      width: 95%;
+    height: 632px;
+    margin-left: 8%;
+    margin-right: 20%;
+    background-color: #545454;
+}
+
+
+     header{ background-color:#13125E;
+    height: 80px;
+    width: 100%;
+
+
+
+
+}
+#secundarios{ margin-top: 247px;
+    margin-right: 20px;
+
+}
+
+ nav{
+width: 1100px;
+height: 17px;
+margin-left: auto;
+margin-right: auto;
+}
+nav a{
+float: left;
+padding-left: 10px;
+padding-bottom: 8px;
+margin-top: 10px;
+}
+
+h2{
+        color: #A98B49;
+    text-align: left;
+    margin-left: 419px;
+
+ }
+
+ h3{
+    color: #A98B49;
+    text-align: left;
+    margin-left: 424px;
+
+ }
+section article p { height: 220px;
+    width: 451px;
+    text-align: center;
+    margin-left: 275px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+section img{
+        margin-left: 0px;
+    padding-left: 0px;
+} 
+
+
+form{
+     width: 450px;
+     height: 486px;
+     background-color: #A98B49;
+     color: #f5f6fa;
+     margin-left: 251px;
+     
+     padding: 10px;
+     border-width: 5px;
+     border-style: solid;
+     border-color: #D11C22;
+     border-radius: 20px;
+
+
+
+ }
+
+
+  footer{
+width: 100%;
+height: 66px;
+margin-top: 469px;
+background-color:#13125E; 
+
+}
+footer .nombre{
+    padding-top: 13px;
+    padding-left: 323px;
+    text-decoration: none;
+    color: #A98B49;
+    font-size: 15px;
+    font-family: 'Fugaz One', display;
+
+ }
+.oculto1{
+    display: none;
+}.oculto2{
+        margin-left: 0px;
+    padding-left: 0px;
+}
+
+
+.oculto3{
+    display: none;
+}.oculto4{
+    display: none;
+}
+.galeria2{
+    display: none;
+}
+.galeria3{
+    display: none;
+}
+.galeria4{
+    display: none;
+}.galeria6{
+    display: none;
+}
+.galeria7{
+    display: none;
+}.galeria8{
+    display: none;
+}.galeria10{
+    display: none;
+}.galeria11{
+    display: none;
+}.galeria12{
+    display: none;
+}.galeria14{
+    display: none;
+}.galeria15{
+    display: none;
+}.galeria16{
+    display: none;
+}.galeria18{
+    display: none;
+}.galeria19{
+    display: none;
+}.galeria20{
+    display: none;
+}.galeria22{
+    display: none;
+}.galeria23{
+    display: none;
+}.galeria25{
+    display: none;
+}.galeria26{
+    display: none;
+}.galeria28{
+    display: none;
+}.galeria29{
+    display: none;
+}.galeria31{
+    display: none;
+}.galeria32{
+    display: none;
+}
+.argumento1{
+    display: none;
+}.argumento2{
+    margin-left: 230px;
+    padding-left: 0px;
+}.argumento3{
+    display: none;
+}
+
+
+
+
+}
+/* resolución medium */
+
+@media screen and (min-width: 768px)
+and (max-width: 991px)	{
+ form{
+         width: 298px;
+    height: 553px;
+    background-color: #A98B49;
+    color: #f5f6fa;
+    margin-left: 155px;
+    margin-right: auto;
+    padding: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #D11C22;
+    border-radius: 20px;
+
+
+ }
+   main {
+      width: 95%;
+    height: 739px;
+    margin-left: 14%;
+    margin-right: 20%;
+    background-color: #545454;
+}
+
+
+
+   header{ background-color:#13125E;
+    height: 80px;
+    width: 100%;}
+#menu li a{
+    text-decoration: none;
+    color: #A98B49;
+    font-size: 16px;
+    font-family: 'Fugaz One', display;
+    float: right;
+    padding-right: 82px;
+    padding-bottom: 7px;
+}
+form{
+         width: 298px;
+    height: 553px;
+    background-color: #A98B49;
+    color: #f5f6fa;
+    margin-left: 155px;
+    margin-right: auto;
+    padding: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #D11C22;
+    border-radius: 20px;
+
+
+ }
+
+
+
+#secundarios{ margin-top: 180px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+form{
+         width: 298px;
+    height: 553px;
+    background-color: #A98B49;
+    color: #f5f6fa;
+    margin-left: 155px;
+    margin-right: auto;
+    padding: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #D11C22;
+    border-radius: 20px;
+
+
+ }
+
+ nav{
+width: 1100px;
+height: 17px;
+margin-left: auto;
+margin-right: auto;
+}
+
+nav a{
+float: left;
+padding-left: 10px;
+padding-bottom: 8px;
+margin-top: 10px;
+}
+
+h2{
+        color: #A98B49;
+    text-align: left;
+    margin-left:262px;
+
+ }
+
+
+h3{
+    color:#A98B49;
+    text-align: center;
+    padding-right: 376px;
+
+    
+ }
+
+
+
+
+ section article p { height: 220px;
+    width: 451px;
+    text-align: center;
+    margin-left: 121px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+section img{
+        margin-left: 0px;
+    padding-left: 0px;
+}
+
+
+  footer{
+width: 100%;
+height: 66px;
+margin-top: 575px;
+background-color:#13125E; 
+
+}
+
+
+form{
+         width: 298px;
+    height: 553px;
+    background-color: #A98B49;
+    color: #f5f6fa;
+    margin-left: 155px;
+    margin-right: auto;
+    padding: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #D11C22;
+    border-radius: 20px;
+
+
+ }
+footer .nombre{
+    padding-top: 13px;
+    padding-left: 146px;
+    text-decoration: none;
+    color: #A98B49;
+    font-size: 15px;
+    font-family: 'Fugaz One', display;
+
+ }
+
+
+
+
+
+
+
+
+.oculto1{
+        display: none;
+}
+
+.oculto2{
+    display: none;
+}.oculto3{
+    margin-left: 0px;
+    padding-left: 0px;
+}.oculto4{
+    display: none;
+}
+
+
+.galeria1{
+    display: none;
+}.galeria3{
+    display: none;
+}.galeria4{
+    display: none;
+}.galeria5{
+    display: none;
+}.galeria7{
+    display: none;
+}.galeria8{
+    display: none;
+}.galeria9{
+    display: none;
+}.galeria11{
+    display: none;
+}.galeria12{
+    display: none;
+}.galeria13{
+    display: none;
+}.galeria15{
+    display: none;
+}.galeria16{
+    display: none;
+}.galeria17{
+    display: none;
+}.galeria19{
+    display: none;
+}.galeria20{
+    display: none;
+}.galeria21{
+    display: none;
+}.galeria23{
+    display: none;
+}.galeria24{
+    display: none;
+}.galeria26{
+    display: none;
+}.galeria27{
+    display: none;
+}.galeria29{
+    display: none;
+}.galeria30{
+    display: none;
+}.galeria32{
+    display: none;
+}
+.argumento1{
+    display: none;
+}.argumento2{
+    margin-left: 80px;
+    padding-left: 0px;
+}.argumento3{
+    display: none;
+}
+
+
+
+
+}
+
+/* resolución small */
+
+@media screen and (min-width: 576px)
+and (max-width: 767px)	{
+ 
+main {
+      width: 100%;
+    height: 700px;
+    margin-left: 25%;
+    margin-right: 20%;
+    background-color: #545454;
+}
+
+
+#menu li a{
+    text-decoration: none;
+    color: #A98B49;
+    font-size: 16px;
+    font-family: 'Fugaz One', display;
+    float: right;
+    padding-right: 82px;
+    padding-bottom: 7px;
+}
+
+
+header{ background-color:#13125E;
+    height: 80px;
+    width: 100%;
+
+
+
+
+}
+
+ nav{
+width: 1100px;
+height: 17px;
+margin-left: auto;
+margin-right: auto;
+}
+
+nav a{
+float: left;
+padding-left: 10px;
+padding-bottom: 8px;
+margin-top: 10px;
+}
+form{
+         width: 298px;
+    height: 553px;
+    background-color: #A98B49;
+    color: #f5f6fa;
+    margin-left: 155px;
+    margin-right: auto;
+    padding: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #D11C22;
+    border-radius: 20px;
+
+}h2{
+        color: #A98B49;
+    text-align: left;
+    margin-left:262px;
+
+ }
+
+  h3{
+    color: #A98B49;
+    text-align: left;
+    margin-left: 240px;
+
+ }
+
+ section article p { height: 220px;
+    width: 451px;
+    text-align: center;
+    margin-left: 65px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+section img{
+        margin-left: 0px;
+    padding-left: 0px;
+}
+
+
+  footer{
+width: 100%;
+height: 66px;
+margin-top: 536px;
+background-color:#13125E; 
+
+
+}
+ footer .nombre{
+    padding-top: 13px;
+    padding-left: 145px;
+    text-decoration: none;
+    color: #A98B49;
+    font-size: 15px;
+    font-family: 'Fugaz One', display;
+
+ }
+
+.oculto1{
+        display: none;
+}
+
+.oculto2{
+    display: none;
+}.oculto3{
+    display: none;
+}.oculto4{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.galeria1{
+    display: none;
+}.galeria2{
+    display: none;
+}.galeria4{
+    display: none;
+}.galeria5{
+    display: none;
+}
+.galeria6{
+    display: none;
+}.galeria8{
+    display: none;
+}.galeria9{
+    display: none;
+}.galeria10{
+    display: none;
+}.galeria12{
+    display: none;
+}.galeria13{
+    display: none;
+}.galeria14{
+    display: none;
+}.galeria16{
+    display: none;
+}.galeria17{
+    display: none;
+}.galeria18{
+    display: none;
+}.galeria20{
+    display: none;
+}.galeria21{
+    display: none;
+}.galeria23{
+    display: none;
+}.galeria24{
+    display: none;
+}.galeria26{
+    display: none;
+}.galeria27{
+    display: none;
+}.galeria29{
+    display: none;
+}.galeria30{
+    display: none;
+}.galeria32{
+    display: none;
+}
+
+.argumento1{
+    display: none;
+}.argumento2{
+    margin-left: 45px;
+    padding-left: 0px;
+}.argumento3{
+    display: none;
+}
+
+
+
+}
+
